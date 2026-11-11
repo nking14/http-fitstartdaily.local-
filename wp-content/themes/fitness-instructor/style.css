@@ -1026,7 +1026,7 @@ header, .header {
   content: '';
   width: 70%;
   height: 20px;
-  background: url('/wp-content/themes/fitness-instructor/images/title.png') no-repeat;
+  background: url('/http-fitstartdaily.local-/wp-content/themes/fitness-instructor/images/title.png') no-repeat;
   background-size: contain;
   position: absolute;
   bottom: -15px;

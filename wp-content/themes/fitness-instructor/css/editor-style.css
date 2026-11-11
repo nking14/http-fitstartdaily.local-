@@ -1,0 +1,97 @@
+.header-section button.wp-block-search__button {
+  background: transparent;
+  padding: 0 !important;
+}
+.header-section .gutentor-button, .slider-section .gutentor-button {
+  margin-top: 0 !important;
+}
+.header-section .gutentor-button-icon, .slider-section .gutentor-button-icon  {
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+.header-section .gutentor-button:hover, .slider-section .gutentor-button:hover {
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+.header-section span.wc-block-mini-cart__badge {
+  color: #000;
+}
+.header-section button.wc-block-mini-cart__button:hover svg path {
+  fill: #ff0000;
+}
+.header-section .wp-block-search__inside-wrapper {
+  position: relative;
+}
+.header-section .wp-block-search__input {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+
+/*Slider Section*/
+.slider-section {
+  position: relative;
+}
+.slider-section a.gutentor-video-popup-holder {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ff0000;
+}
+.slider-section a.gutentor-video-popup-holder:hover {
+  background: #000;
+  color: #fff;
+}
+.slider-section .slider-upper {
+  position: relative;
+  overflow-x: visible;
+}
+.slider-section .fitness-social-icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+}
+.slider-section .fitness-social-icons a:hover {
+  background: #ff0000;
+  border-radius: 50%;
+}
+.slider-section h2 {
+  max-width: 70%;
+}
+.slider-section p {
+  max-width: 80%;
+}
+.slider-section .trusted.box img {
+  width: 220px;
+}
+.slider-section .trusted.box h5 {
+  line-height: 1.2;
+}
+.slider-section figure.slider-img, .slider-section figure.slider-img img {
+  position: relative;
+  z-index: 999;
+}
+.slider-section figure.slider-img img {
+  width: 100%;
+}
+.slider-section figure.slider-img:before, .slider-section figure.slider-img:after {
+  content: '';
+  width: 250px;
+  height: 250px;
+  border: 30px solid #FFB4B4;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  z-index: 1;
+  border-radius: 50%;
+}
+.slider-section figure.slider-img:after {
+  width: 300px;
+  height:300px;
+  border-color: #FFC2C2;
+}

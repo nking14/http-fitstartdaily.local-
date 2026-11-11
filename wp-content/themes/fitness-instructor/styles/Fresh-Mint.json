@@ -1,0 +1,103 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Fresh Mint",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "color": "#0D6842",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#0D694236",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+				{
+					"color": "#edf9f4",
+					"name": "Banner Background",
+					"slug": "banner-bg"
+				},
+        {
+          "color": "#474747",
+          "name": "Foreground",
+          "slug": "foreground"
+        },
+        {
+          "color": "#F0F0F0",
+          "name": "Foreground Second",
+          "slug": "foreground-second"
+        },
+        {
+          "color": "#404040",
+          "name": "Secondary Background",
+          "slug": "background-secondary"
+        },
+        {
+          "color": "#fff",
+          "name": "Background",
+          "slug": "background"
+        },
+        {
+          "color": "#1E1E1E",
+          "name": "Body Text",
+          "slug": "body-text"
+        },
+        {
+          "color": "#ffffff",
+          "name": "Body Text Color",
+          "slug": "body-text-color"
+        },
+        {
+          "color": "#000000",
+          "name": "Body Background",
+          "slug": "body-background"
+        },
+        {
+          "color": "#D5D5D5",
+          "name": "Secondary Color",
+          "slug": "secondary-color"
+        },
+        {
+          "color": "#1E1E1E",
+          "name": "Text Link",
+          "slug": "text-link"
+        },
+        {
+          "color": "#E2F1FF",
+          "name": "Tertiary",
+          "slug": "tertiary"
+        },
+        {
+          "color": "#E2F1FF",
+          "name": "Tertiary Background",
+          "slug": "tertiary-background"
+        },
+        {
+          "color": "#1c1c1c",
+          "name": "Input Field",
+          "slug": "input-field"
+        },
+        {
+          "color": "#777",
+          "name": "Boulder",
+          "slug": "boulder"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #065F46 0%, #00B894 100%)",
+          "name": "Primary Gradient",
+          "slug": "primary-gradient"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #CCFBF1 0%, #2DD4BF 100%)",
+          "name": "Secondary Gradient",
+          "slug": "secondary-gradient"
+        }
+      ]
+    }
+  }
+}
